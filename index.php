@@ -934,7 +934,7 @@
         VALUES ('$name', '$email', '$subject', '$interested_in', '$message')";
 
           $result=$connection->query($sql);
-          $to="06teks@gmail.com";
+          $to="salmanmani167@gmail.com";
 
           if(mail ($to,$_POST['subject'],$_POST['message'], 'From: <'.$_POST['email'].'>')){
             echo '<script>
